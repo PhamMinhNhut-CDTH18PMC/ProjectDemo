@@ -1,0 +1,2 @@
+import { COMPONENT_NAME } from 'react-bootstrap';
+- Hàm map: sử dụng vòng lặp và coppy ra cho 1 array 
