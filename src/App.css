@@ -1,62 +1,63 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.product
-{
-  display: flex;
-  padding-top: 30px;
-  padding-left: 60px;
-}
-h2 {
-  color: red;
-}
-.card img 
+.form-control
 {
   width: 100%;
 }
-.col-12
+.row
 {
-  margin-top: 40px;
-  margin-left: 50px;
+  margin-top: 10px;
 }
+.btnData
+{
+  margin-left: 32px;
+  
+}
+.text-right{
+  margin-left: 30px;
+  color: #FA8072;
+  cursor: pointer;
+}
+.IconThem{
+  margin-right: 10px;
+}
+.IconHuy{
+  margin-right: 10px;
+}
+.btnThemCongViec {
+  margin-right: 10px;
+}
+.btnGenerate
+{
+  margin-right: 10px;
+}
+.text-primary {
+  background: linear-gradient(to right ,#fe1717,#ff3390,#be33ff,#3740f4,#4ad3d3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: exampleanimation;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+}
+@keyframes exampleanimation{
+  from{
+    transform: scale(0,0)}
+    to
+    {
+      transform: scale(1,1);
+    }
+  }
+  ul.dropdown-menu.show li :hover{
+    color: red;
+    cursor: pointer;
+  }
+  .sort_selected::after{
+      content: '\f00c';
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      margin:  0 0 0 10px;
+      display: inline-block;
 
-.form-control {
-  width: 40%;
-}
+  }
+  
